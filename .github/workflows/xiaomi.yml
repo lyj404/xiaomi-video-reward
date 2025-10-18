@@ -1,8 +1,8 @@
 name: XiaoMi Video Reward
 on:
   workflow_dispatch:  # 允许手动触发
-  schedule:
-    - cron: '0 1 * * *'    # UTC 1:00 = 北京时间 9:00
+  # schedule:
+  #   - cron: '0 1 * * *'    # UTC 1:00 = 北京时间 9:00
 
 jobs:
   run-python-script:
